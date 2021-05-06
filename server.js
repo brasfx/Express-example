@@ -16,3 +16,6 @@ app.get('/', (_, res) => {
 app.listen(3333, () => {
   console.log(`Servidor em execucao na porta 3333`);
 });
+
+//adicionado somente para fins de teste
+app.use(express.static('assets'));
